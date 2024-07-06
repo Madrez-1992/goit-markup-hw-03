@@ -32,7 +32,7 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
-img{
+img {
   display: block;
 }
 /*=================HEADER================*/
@@ -123,10 +123,10 @@ img{
 
 /* ============== hero section 1 ============*/
 
-.hero{
+.hero {
   padding: 188px 0;
   background-color: #2e2f42;
-} 
+}
 
 .hero-title {
   max-width: 496px;
@@ -170,34 +170,30 @@ img{
 
 .lorem {
   max-width: 1158px;
-  margin: 0 auto; 
+  margin: 0 auto;
   padding: 120px 0;
-  }
+}
 
-.visually-hidden{
+.visually-hidden {
   position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .lorem-list {
- display: flex;
+  display: flex;
   gap: 24px;
-  
 }
 
 .lorem-item {
-  
-
   width: calc((100% - 72px) / 4);
-    
 }
 
 .lorem-subtitle {
@@ -207,36 +203,26 @@ img{
   letter-spacing: 0.02em;
   color: #2e2f42;
   /* padding-bottom: 8px;  */
-
-
 }
 
-
 .lorem-item-text {
-  
   width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  
-  }
-  
+}
 
-
-
-/*========<section class="about-our-team">=========*/
-
-
+/*========<section   our team 3  >=========*/
 
 .about-our-team {
-   background: #f4f4fd;
+  background: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.our-team { 
-   font-size: 36px;
+.our-team {
+  font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
@@ -253,7 +239,7 @@ img{
 }
 
 .list-one {
-   background: #ffffff;
+  background: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -261,9 +247,8 @@ img{
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16),
-     0 1px 6px 0 rgba(46, 47, 66, 0.08);
-     gap: 24px;
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  gap: 24px;
 }
 
 .name-container {
@@ -276,12 +261,10 @@ img{
   padding-bottom: 32px;
 }
 
-.images-teams{
-  
-   display: block;
+.images-teams {
+  display: block;
   max-width: 100%;
   height: auto;
-
 }
 
 .sales {
@@ -289,7 +272,7 @@ img{
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.lorem-subtitle{
+.lorem-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -297,48 +280,46 @@ img{
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
-
 }
 
-.lorem-item-text{
-      font-size: 16px;
+.lorem-item-text {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-
 }
-/*========portfolio=======*/
+
+/*========portfolio 4 =======*/
 
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.our-team{
-font-size: 36px;
+.our-team {
+  font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
-
-
 }
 
-.portfolio-ul{
-  
- column-gap: 48px;
-  row-gap:24px;
+.portfolio-ul {
+  display: flex;
+  row-gap: 48px;
+  column-gap: 24px;
   flex-wrap: wrap;
 } 
 
-.portfolio-list{
+.portfolio-list {
+  width: calc((100% - 48px) / 3);
   background: #fff;
 }
 
-.portfolio-text{
+.portfolio-text {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -347,13 +328,13 @@ font-size: 36px;
   border-top: none;
 }
 
-.portfolio-image{
-    display: block;
+.portfolio-image {
+  display: block;
   max-width: 100%;
   height: auto;
 }
 
-.lorem-subtitle{
+.lorem-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -362,8 +343,8 @@ font-size: 36px;
   margin-bottom: 8px;
 }
 
-.lorem-portfolio-text{
-   font-size: 16px;
+.lorem-portfolio-text {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
