@@ -267,11 +267,8 @@ img {
   height: auto;
 }
 
-.sales {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
+
+
 .lorem-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -349,3 +346,24 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* ======== footer  ========  */
+
+.page-footer{
+   padding: 100px 0 ;
+ 
+} 
+
+
+.sales {
+  max-width: 264px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+} 
+
+  .footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+ } 
+
