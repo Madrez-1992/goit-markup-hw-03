@@ -122,12 +122,11 @@ img{
 }
 
 /* ============== hero section ============*/
-.container-hero {
-  
+
+.hero{
+  padding: 188px 0;
   background-color: #2e2f42;
-  padding-bottom: 188px;
-  padding-top: 188px;
-}
+} 
 
 .hero-title {
   max-width: 496px;
@@ -135,13 +134,12 @@ img{
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
-
   letter-spacing: 0.02em;
-  
   margin: 0 auto;
 }
 
 .hero-button {
+  min-width: 169px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -150,9 +148,10 @@ img{
   cursor: pointer;
 
   display: block;
-  max-width: 196px;
+  /* max-width: 196px; */
   height: 56px;
   border-radius: 4px;
+  border: none;
   text-align: center;
   padding-top: 16px;
   padding-right: 32px;
@@ -167,11 +166,13 @@ img{
 .hero-button:hover {
   background-color: #404bbf;
 }
-/*=================Lorem section=============*/
+/*=================Lorem section 1 =============*/
+
 .lorem {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto; 
+  
   
   
 }
@@ -184,7 +185,6 @@ img{
 
 .lorem-item {
 
- 
   width: calc((100% - 72px) / 4);
     
 }
