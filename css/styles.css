@@ -121,7 +121,7 @@ img{
   background-color: #2e2f42;
 }
 
-/* ============== hero section ============*/
+/* ============== hero section 1 ============*/
 
 .hero{
   padding: 188px 0;
@@ -166,15 +166,25 @@ img{
 .hero-button:hover {
   background-color: #404bbf;
 }
-/*=================Lorem section 1 =============*/
+/*=================Lorem section 2=============*/
 
 .lorem {
   max-width: 1158px;
-  padding: 0 15px;
   margin: 0 auto; 
-  
-  
-  
+  padding: 120px 0;
+  }
+
+.visually-hidden{
+  position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .lorem-list {
@@ -184,6 +194,7 @@ img{
 }
 
 .lorem-item {
+  
 
   width: calc((100% - 72px) / 4);
     
@@ -195,8 +206,7 @@ img{
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px; 
-  padding-top: 120px;
+  /* padding-bottom: 8px;  */
 
 
 }
@@ -209,7 +219,7 @@ img{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 120px;
+  
   }
   
 
